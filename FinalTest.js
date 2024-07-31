@@ -1,3 +1,20 @@
+/*  Test Description
+  This Appium script for the Google Calendar app performs:
+
+    Skip Welcome Pages
+    Create Event:
+    Enter unique name, set "All day," and assign "Tangerine" color.
+    Verify Creation
+    Edit Event: Change name and save.
+    Verify Edit
+    Delete Event: Remove and confirm deletion.
+    
+  Error Handling
+    Uses try-catch blocks for logging errors.
+
+    Summary
+  Tests creating, editing, and deleting an event in Google Calendar.*/
+
 const { remote } = require('webdriverio');
 
 // Current Date and Time
